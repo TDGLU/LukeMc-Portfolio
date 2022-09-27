@@ -2,7 +2,7 @@
 :root {
   --white: #fff;
   --black: #000;
-  --darkblue: rgb(0, 58, 167);
+  --darkblue: rgb(0, 23, 235);
   --lightblue: rgb(0, 204, 255);
   --green: #2AFF00;
 }
@@ -55,6 +55,7 @@ header {
   font-size: 25px;
 }
 
+/* Link color changes */
 * :link {
   color: var(--lightblue);
 }
@@ -93,6 +94,7 @@ header {
   font-style: italic;
 }
 
+/* About Me Section  */
 .about-me {
   padding: 1.5rem 0;
   text-align: center;
@@ -124,6 +126,7 @@ header {
   background-repeat: no-repeat;
 }
 
+/* My Work Section  */
 .my-work {
   background-color: #0b0c0c;
   text-align: center;
@@ -150,12 +153,20 @@ header {
   margin-top: 4rem;
 }
 
-.my-work-horiseon {
+.my-works {
   margin-top: 10px;
   font-size: 1.8rem;
   color: var(--green);
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: var(--black)
+}
+
+.my-work-2 {
+
+  font-size: 2rem;
+  color: var(--white);
+  -webkit-text-stroke-color: var(--black);
+  padding-bottom: 1rem;
 }
 
 /* Contact Me Section  */
