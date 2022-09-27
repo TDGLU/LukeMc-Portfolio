@@ -21,6 +21,10 @@ body {
   background-color: #181a1b;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Custom font  */
 @font-face {
   font-family: Burbank;
@@ -39,21 +43,25 @@ header {
 }
 
 .nav-bar {
+  width: 100%;
+}
+
+.nav-bar-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  overflow: hidden;
+  width: 100%;
 }
 
-.nav-bar :link {
+* :link {
   color: var(--lightblue);
 }
 
-.nav-bar :visited {
+* :visited {
   color: var(--darkblue);
 }
 
-.nav-bar :hover {
+* :hover {
   color: var(--white);
 }
 
@@ -62,11 +70,11 @@ header {
   font-size: 39px;
   background-image: url(images/heroimg.png);
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% 80%;
   background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
-  padding: 300px 25px;
+  padding: 150px 25px;
   margin: 0;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: var(--white);
@@ -84,7 +92,7 @@ header {
 }
 
 .about-me {
-  padding: 16px 10rem;
+  padding: 1.5rem 0;
   text-align: center;
   -webkit-text-stroke-width: .2px;
 }
@@ -115,7 +123,9 @@ header {
 }
 
 .my-work {
+  background-color: #0b0c0c;
   text-align: center;
+  padding: 1.5rem 0;
 }
 
 .my-work-content {
@@ -130,6 +140,7 @@ header {
   padding-bottom: 1rem;
 }
 
+/* Display Horiseon Challenge  */
 .my-work-1 {
   width: 200px;
   background-repeat: no-repeat;
@@ -145,12 +156,16 @@ header {
   -webkit-text-stroke-color: var(--black)
 }
 
+/* Contact Me Section  */
 .contact-me {
   text-align: center;
+  padding: 1.5rem 0;
 }
 
 .contact-me-contact {
   font-size: 1.8rem;
   color: var(--white);
+  margin-bottom: 4rem;
+  -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: var(--black)
 }
