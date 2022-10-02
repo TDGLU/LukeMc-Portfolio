@@ -40,7 +40,7 @@ header {
   background-color: #181a1b;
   position: static;
   padding: 8px;
-  height: 2.5rem;
+  height: 2.75rem;
 }
 
 .nav-bar {
@@ -131,6 +131,7 @@ header {
   background-color: #0b0c0c;
   text-align: center;
   padding: 1.5rem 0;
+  font-size: 25px;
 }
 
 .my-work-content {
