@@ -10,13 +10,7 @@
 
 - I made a My Work section which displays the work I've done so far including an image for each work which if clicked, sends you to the deployed site, and th repository links.
 
-# Fixes
-
-- Readme now contains steps, deployed link, and a screenshot.
-
-- Text with links now all share the same font size.
-
-##
+-
 
 # Deploy link
 
