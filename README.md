@@ -10,7 +10,7 @@
 
 - I made a My Work section which displays the work I've done so far including an image for each work which if clicked, sends you to the deployed site, and th repository links.
 
--
+- I added a Contact Me section with my email included.
 
 # Deploy link
 
