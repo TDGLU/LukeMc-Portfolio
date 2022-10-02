@@ -104,6 +104,7 @@ header {
   font-size: 3rem;
   margin: 1rem 0;
   color: var(--lightblue);
+  -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: var(--black);
 }
 
@@ -114,7 +115,7 @@ header {
 }
 
 .about-me-message {
-  font-size: 1.8rem;
+  font-size: 30px;
   color: var(--white);
   -webkit-text-stroke-color: var(--black);
 }
@@ -139,7 +140,7 @@ header {
 }
 
 .my-work-message {
-  font-size: 25px;
+  font-size: 30px;
   color: var(--white);
   -webkit-text-stroke-color: var(--black);
   padding-bottom: 1rem;
@@ -150,7 +151,8 @@ header {
   width: 200px;
   background-repeat: no-repeat;
   border: solid 3px black;
-  margin-top: 4rem;
+  margin: 2rem;
+  margin-bottom: 3rem;
 }
 
 .my-works {
