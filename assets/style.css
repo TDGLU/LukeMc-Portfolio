@@ -17,7 +17,7 @@
 
 /* Body  */
 body {
-  font-family: Burbank;
+  font-family: Burbank, sans-serif;
   background-color: #181a1b;
 }
 
@@ -145,7 +145,7 @@ header {
   padding-bottom: 1rem;
 }
 
-/* Display Horiseon Challenge  */
+/* Displays Horiseon Challenge and Portfolio */
 .my-work-1 {
   width: 200px;
   background-repeat: no-repeat;
@@ -162,7 +162,6 @@ header {
 }
 
 .my-work-2 {
-
   font-size: 2rem;
   color: var(--white);
   -webkit-text-stroke-color: var(--black);
