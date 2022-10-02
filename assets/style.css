@@ -151,12 +151,10 @@ header {
   width: 200px;
   background-repeat: no-repeat;
   border: solid 3px black;
-  margin: 2rem;
-  margin-bottom: 3rem;
+  margin: 7rem 2rem .5rem 2rem;
 }
 
 .my-works {
-  margin-top: 10px;
   font-size: 1.8rem;
   color: var(--green);
   -webkit-text-stroke-width: .5px;
@@ -167,7 +165,7 @@ header {
   font-size: 2rem;
   color: var(--white);
   -webkit-text-stroke-color: var(--black);
-  padding-bottom: 1rem;
+  margin: .5rem 0 .5rem 0;
 }
 
 /* Contact Me Section  */
