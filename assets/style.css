@@ -83,7 +83,6 @@ header {
   -webkit-text-stroke-color: var(--white);
 }
 
-
 .hero-title {
   font-size: 90px;
   color: var(--lightblue);
@@ -105,7 +104,7 @@ header {
   font-size: 3rem;
   margin: 1rem 0;
   color: var(--lightblue);
-  -webkit-text-stroke-color: var(--black)
+  -webkit-text-stroke-color: var(--black);
 }
 
 .about-me-content {
@@ -117,7 +116,7 @@ header {
 .about-me-message {
   font-size: 1.8rem;
   color: var(--white);
-  -webkit-text-stroke-color: var(--black)
+  -webkit-text-stroke-color: var(--black);
 }
 
 .about-me-img {
@@ -140,7 +139,7 @@ header {
 }
 
 .my-work-message {
-  font-size: 1.8rem;
+  font-size: 25px;
   color: var(--white);
   -webkit-text-stroke-color: var(--black);
   padding-bottom: 1rem;
@@ -159,7 +158,7 @@ header {
   font-size: 1.8rem;
   color: var(--green);
   -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: var(--black)
+  -webkit-text-stroke-color: var(--black);
 }
 
 .my-work-2 {
@@ -177,9 +176,10 @@ header {
 }
 
 .contact-me-contact {
-  font-size: 1.8rem;
+  font-size: 25px;
   color: var(--white);
   margin-bottom: 4rem;
+  font-size: 25px;
   -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: var(--black)
+  -webkit-text-stroke-color: var(--black);
 }
