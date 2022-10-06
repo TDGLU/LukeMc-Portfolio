@@ -83,7 +83,7 @@ header {
   text-align: center;
   padding: 200px 25px;
   margin: 0;
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-width: 1.3px;
   -webkit-text-stroke-color: var(--white);
 }
 
