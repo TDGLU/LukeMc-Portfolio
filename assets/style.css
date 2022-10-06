@@ -29,7 +29,7 @@ a {
 /* Custom font  */
 @font-face {
   font-family: Burbank;
-  src: url(fonts/Burbank.otf);
+  src: url(../assets/fonts/Burbank.otf);
 }
 
 /* Nav bar  */
@@ -75,7 +75,7 @@ header {
 /* Hero settings */
 .hero {
   font-size: 39px;
-  background-image: url(/assets/images/sunset.jpg);
+  background-image: url(../assets/images/sunset.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
