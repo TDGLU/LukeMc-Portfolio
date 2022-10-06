@@ -39,15 +39,18 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #181a1b;
-  position: static;
   padding: 8px;
   height: 2.75rem;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 .nav-bar {
   width: 100%;
 }
 
+/* Nav bar elements */
 .nav-bar-container {
   display: flex;
   justify-content: space-evenly;
@@ -72,13 +75,13 @@ header {
 /* Hero settings */
 .hero {
   font-size: 39px;
-  background-image: url(images/heroimg.png);
+  background-image: url(/assets/images/sunset.jpg);
   background-size: cover;
-  background-position: 50% 80%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
-  padding: 150px 25px;
+  padding: 200px 25px;
   margin: 0;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: var(--white);
