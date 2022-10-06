@@ -75,7 +75,7 @@ header {
 /* Hero settings */
 .hero {
   font-size: 39px;
-  background-image: url(../assets/images/sunset.jpg);
+  background-image: url(./images/sunset.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
